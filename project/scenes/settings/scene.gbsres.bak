@@ -50,7 +50,7 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "  !F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!enable sfx\n\nenable bg music",
+        "text": "  !F:cf2c5be0-8903-4a16-8841-02e11be317d6!toggle sfx\n\n!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!toggle bg music",
         "x": 4,
         "y": 3,
         "location": "background",
@@ -72,8 +72,8 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "!F:3910f4e8-5524-4b9c-af1b-e896cf9acb70!credits",
-        "x": 7,
+        "text": "!F:3910f4e8-5524-4b9c-af1b-e896cf9acb70!credits!",
+        "x": 6,
         "y": 11,
         "location": "background",
         "__collapse": false

@@ -22,6 +22,11 @@
       "symbol": "var_tick"
     },
     {
+      "id": "4",
+      "name": "saving?",
+      "symbol": "var_saving_"
+    },
+    {
       "id": "04360ad5-2f62-4b4e-a796-74924170c0f1__L0",
       "name": "localscore",
       "symbol": "var_localscore"
@@ -52,9 +57,9 @@
       "symbol": "var_save"
     },
     {
-      "id": "4",
-      "name": "saving?",
-      "symbol": "var_saving_"
+      "id": "5",
+      "name": "sfxtoggle",
+      "symbol": "var_sfxtoggle"
     }
   ],
   "constants": []

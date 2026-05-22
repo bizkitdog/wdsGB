@@ -50,8 +50,8 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "  !F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!enable sfx\n\nenable bg music",
-        "x": 4,
+        "text": "  !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!toggle sfx\n\ntoggle bg music",
+        "x": 2,
         "y": 3,
         "location": "background",
         "__collapse": false

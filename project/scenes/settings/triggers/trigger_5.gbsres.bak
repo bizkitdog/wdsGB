@@ -1,0 +1,110 @@
+{
+  "_resourceType": "trigger",
+  "id": "56e97815-c82b-47f5-93b4-77cbd67f6a94",
+  "name": "",
+  "prefabId": "",
+  "x": 6,
+  "y": 3,
+  "symbol": "trigger_4",
+  "prefabScriptOverrides": {},
+  "width": 7,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "039dec95-7554-4864-8226-00c983120c0c"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "disabled!"
+              ],
+              "__section": "layout",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 8,
+              "textX": 5,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "47632221-c34f-47c1-9e1b-61d800398cb3"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "9ff32791-af80-467b-9439-00069f322cdb"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "enabled!"
+              ],
+              "__section": "layout",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 6,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "43e5a4de-daf5-4b06-8799-a252f26a7e88"
+          }
+        ]
+      },
+      "id": "eb6b0b17-66b5-41b2-a22e-291cf9981e20"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}

@@ -60,53 +60,40 @@
       "id": "c4e033b0-ae43-49a4-8ede-dcb829df6ca0"
     },
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
+      "command": "EVENT_IF",
       "args": {
-        "input": [
-          "start",
-          "select"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
-        "__collapse": true
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_SWITCH_SCENE",
+            "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
-              "sceneId": "5c3aefa5-2698-42da-97c4-a6d6125a3bc6",
-              "x": {
-                "type": "number",
-                "value": 10
-              },
-              "y": {
-                "type": "number",
-                "value": 17
-              },
-              "direction": "",
-              "fadeSpeed": "2",
-              "__collapse": true
+              "type": "0276a233-1446-4146-9097-7499a7571957",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": false,
+              "effect": 0,
+              "__collapse": false
             },
-            "id": "e08db5e0-2943-4110-b949-b976d5cdee01"
+            "id": "03c733b2-cecf-4a9e-b55d-7c11bad1ec3f"
           }
-        ]
+        ],
+        "false": []
       },
-      "id": "257aeaee-ed32-4081-bd97-ea18bc1780e5"
-    },
-    {
-      "command": "EVENT_SOUND_PLAY_EFFECT",
-      "args": {
-        "type": "0276a233-1446-4146-9097-7499a7571957",
-        "priority": "medium",
-        "pitch": 4,
-        "frequency": 200,
-        "duration": 0.5,
-        "wait": false,
-        "effect": 0,
-        "__collapse": true
-      },
-      "id": "03c733b2-cecf-4a9e-b55d-7c11bad1ec3f"
+      "id": "3d057fa4-2261-45f3-a7d3-7b4f6e4a3423"
     },
     {
       "command": "EVENT_ACTOR_HIDE",

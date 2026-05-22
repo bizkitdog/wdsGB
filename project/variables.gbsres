@@ -55,6 +55,16 @@
       "id": "afec2842-1795-4f76-9763-86da41b8971d__L0",
       "name": "save",
       "symbol": "var_save"
+    },
+    {
+      "id": "5",
+      "name": "sfxtoggle",
+      "symbol": "var_sfxtoggle"
+    },
+    {
+      "id": "0a55024a-248d-43d9-a412-b25fe7f9013d__L0",
+      "name": "hydrationtick",
+      "symbol": "var_hydrationtick_0"
     }
   ],
   "constants": []
