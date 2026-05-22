@@ -1,0 +1,120 @@
+{
+  "_resourceType": "scene",
+  "id": "5c3aefa5-2698-42da-97c4-a6d6125a3bc6",
+  "_index": 3,
+  "type": "POINTNCLICK",
+  "name": "settings",
+  "symbol": "scene_4",
+  "x": 280,
+  "y": 32,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "99d10ef7-eb10-4de9-9686-d6eab824d91a",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "default-bg-3",
+    "default-bg-1",
+    "default-ui",
+    "",
+    "",
+    "",
+    "",
+    "default-ui"
+  ],
+  "spritePaletteIds": [
+    "default-bg-1"
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "4e0a3409-e67e-4be2-98d0-08315ea5ea3f",
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:94a641da-6023-4cf3-988a-dec5f567cf10!setttings:",
+        "x": 5,
+        "y": 0,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "b378401b-43f6-46d6-b47b-da5da2b90791"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-bg-4"
+      },
+      "id": "e18b5291-d906-46fb-b1f8-2c14b52532f5"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "  !F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!enable sfx\n\nenable bg music",
+        "x": 4,
+        "y": 3,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "948fc360-474a-440f-b4fe-11432e518108"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427! adjust hydration timer\n\n    adjust score timer ",
+        "x": 1,
+        "y": 7,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "1379b913-8eea-4df9-bcb0-01354a146903"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:3910f4e8-5524-4b9c-af1b-e896cf9acb70!credits",
+        "x": 7,
+        "y": 11,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "d7b4cccc-f7a8-474e-9cb2-bb684ff05a68"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:3910f4e8-5524-4b9c-af1b-e896cf9acb70!save/restart",
+        "x": 4,
+        "y": 13,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "5b6ab66c-3348-482e-820d-95443b76d1d3"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:3910f4e8-5524-4b9c-af1b-e896cf9acb70!erase save",
+        "x": 5,
+        "y": 14,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "b76a6141-e16f-4465-8584-736ae6603bd0"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:3910f4e8-5524-4b9c-af1b-e896cf9acb70!exit",
+        "x": 8,
+        "y": 16,
+        "location": "background"
+      },
+      "id": "65624b8f-73ac-49bb-bc4a-6e17c1b4e908"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

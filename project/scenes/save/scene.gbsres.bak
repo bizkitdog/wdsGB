@@ -1,0 +1,80 @@
+{
+  "_resourceType": "scene",
+  "id": "f80505bb-a59e-45b2-bc68-470d8022ffd4",
+  "_index": 6,
+  "name": "save",
+  "backgroundId": "b8ceea0a-0bec-4ab0-a388-07502107a2d0",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 448,
+  "y": 208,
+  "script": [
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "data saved!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 4,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d2c32a55-f5ed-4878-8ea1-12c9303785a5"
+          }
+        ],
+        "load": []
+      },
+      "id": "3d16a1fc-eda5-4b8b-802d-ced8b115a7d9"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "5c3aefa5-2698-42da-97c4-a6d6125a3bc6",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "60f441ed-c47a-4782-8ab8-eaca56a7b88a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "c70471cb-7cb8-4051-82e4-d989b467fafd"
+}

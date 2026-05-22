@@ -1,0 +1,160 @@
+{
+  "_resourceType": "actor",
+  "id": "5dfcf3c9-200f-4a3b-a61b-7c692ceb8916",
+  "name": "hydration timer control",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c70471cb-7cb8-4051-82e4-d989b467fafd",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_0",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 2,
+        "duration": 1.49,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": false
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 0.01
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": false
+            },
+            "id": "f1fea3da-f2f8-4d53-afa5-4682ac6c20a3"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "lte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 15
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_PALETTE_SET_UI",
+                  "args": {
+                    "palette": ""
+                  },
+                  "id": "5f1ac873-a6ca-4e3b-a6eb-0f7b5e346d26"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_PALETTE_SET_UI",
+                  "args": {
+                    "palette": "default-bg-1"
+                  },
+                  "id": "87964c15-fadc-479a-8bc5-50e948437f38"
+                }
+              ]
+            },
+            "id": "429444f6-1b24-4dfe-b16d-8341118d708d"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "lte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "f6236bab-74c8-456c-be28-de2cead9ab23",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2",
+                    "__collapse": true
+                  },
+                  "id": "2979f373-ac04-4b2b-857f-f7e38927de69"
+                }
+              ],
+              "false": []
+            },
+            "id": "cbf78e16-265a-4cc5-b9eb-ee63526e7db2"
+          },
+          {
+            "command": "EVENT_DEC_VALUE",
+            "args": {
+              "variable": "0",
+              "__collapse": true
+            },
+            "id": "83f96258-e45a-4d07-9c3e-1a7d20e58148"
+          },
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "!F:d4a983d3-0712-409c-92d8-34c5b5ee24b4!!!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!$00$ ",
+              "x": 0,
+              "y": 17,
+              "location": "background",
+              "__collapse": true
+            },
+            "id": "79756619-8589-4c3b-b1c0-e1870bba0d4a"
+          }
+        ]
+      },
+      "id": "7370a6b0-dab6-4073-ac61-379f83503b2b"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 0,
+  "y": 9,
+  "_index": 0
+}

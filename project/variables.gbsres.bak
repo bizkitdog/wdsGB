@@ -1,0 +1,61 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "hydration",
+      "symbol": "var_hydration"
+    },
+    {
+      "id": "1",
+      "name": "score",
+      "symbol": "var_score"
+    },
+    {
+      "id": "2",
+      "name": "high score",
+      "symbol": "var_high_score"
+    },
+    {
+      "id": "3",
+      "name": "tick",
+      "symbol": "var_tick"
+    },
+    {
+      "id": "04360ad5-2f62-4b4e-a796-74924170c0f1__L0",
+      "name": "localscore",
+      "symbol": "var_localscore"
+    },
+    {
+      "id": "d71467ff-4050-4981-9d34-69b05b50291e__L0",
+      "name": "Score",
+      "symbol": "var_score_0"
+    },
+    {
+      "id": "617ea5c3-8793-4e7a-bb80-2c74e449a0e8__L0",
+      "name": "Score",
+      "symbol": "var_score_1"
+    },
+    {
+      "id": "f571d593-4167-4929-9b40-4c3f3b7bd426__L0",
+      "name": "Score",
+      "symbol": "var_score_2"
+    },
+    {
+      "id": "5dfcf3c9-200f-4a3b-a61b-7c692ceb8916__L0",
+      "name": "hydrationtick",
+      "symbol": "var_hydrationtick"
+    },
+    {
+      "id": "afec2842-1795-4f76-9763-86da41b8971d__L0",
+      "name": "save",
+      "symbol": "var_save"
+    },
+    {
+      "id": "4",
+      "name": "saving?",
+      "symbol": "var_saving_"
+    }
+  ],
+  "constants": []
+}

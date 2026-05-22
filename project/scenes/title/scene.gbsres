@@ -1,0 +1,162 @@
+{
+  "_resourceType": "scene",
+  "id": "f5eb2a2b-1cf9-48bd-890e-2ab82395026f",
+  "_index": 2,
+  "name": "title",
+  "backgroundId": "79c3e83b-1edb-411a-be5c-f778bad3c4e8",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 112,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "4"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "save"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "4",
+                    "value": {
+                      "type": "false"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "4a6df763-f319-4f9c-a9ab-6a97f29f7516"
+                }
+              ],
+              "load": []
+            },
+            "id": "dc772b92-9b75-41a2-8a97-35cbd1be72ec"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_LOAD_DATA",
+            "args": {
+              "saveSlot": 0
+            },
+            "id": "9d30f2d8-ac2a-49bc-93c9-c4c0343736be"
+          }
+        ]
+      },
+      "id": "d9644e5e-4692-461e-9771-2f24caca5f19"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "45c6cc7e-3c32-4686-84e9-124c0bcb5757"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "number",
+          "value": 50
+        },
+        "__collapse": true
+      },
+      "id": "bb1a0008-eb0e-4f3b-bcbd-57528092166a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": false
+      },
+      "id": "f31ec96e-a6d3-44b3-9155-750e864af6dc"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!water drinking simulator\n  for nintendo gameboy",
+        "x": 1,
+        "y": 9,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "e45cecbc-6c6e-45a8-b099-590ee418f46a"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "press any button\n",
+        "x": 2,
+        "y": 16,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "c466b644-b749-4097-8d2d-c5949802fea4"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "select",
+          "start",
+          "right",
+          "down",
+          "up",
+          "left"
+        ],
+        "__collapse": true
+      },
+      "id": "89693768-1cf1-4b46-b50a-c720b2f685ed"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "04360ad5-2f62-4b4e-a796-74924170c0f1",
+        "x": {
+          "type": "number",
+          "value": 18
+        },
+        "y": {
+          "type": "number",
+          "value": 5
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "76ecf013-405a-481e-96ad-81a1b3d120c2"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "c70471cb-7cb8-4051-82e4-d989b467fafd",
+  "autoFadeEventCollapse": true
+}
