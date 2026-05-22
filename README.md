@@ -1,4 +1,4 @@
-\*drinks water pixely-y\*
+\*drinks bitcrushed water\*
 
 # water drinking simulator for the nintendo gameboy
 a demake of water drinking simulator for the nintendo gameboy system, made using GBStudio
@@ -16,3 +16,5 @@ thanks to,
 motdab for creating the original art assets
 
 created using [GB Studio](https://github.com/chrismaltby/gb-studio)
+
+sound effect converted using [Robot Text-To-WAV for GB Studio + WAV converter](https://2ndlawgames.itch.io/text-to-wav)
