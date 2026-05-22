@@ -11,7 +11,7 @@ see the original version's [`README.md`](https://github.com/SaveMe5656/water-dri
 thanks to,
 
 
-[@saveme5656](github.com/@saveme5656), for creating the original game
+[@saveme5656](github.com/saveme5656), for creating the original game
 
 motdab for creating the original art assets
 
