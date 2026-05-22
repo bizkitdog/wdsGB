@@ -1,7 +1,7 @@
 \*drinks bitcrushed water\*
 
 # water drinking simulator for the nintendo gameboy
-a demake of water drinking simulator for the nintendo gameboy system, made using GBStudio
+a demake of water drinking simulator for the nintendo gameboy system, made using GB Studio
 
 ## about
 see the original version's [`README.md`](https://github.com/SaveMe5656/water-drinking-simulator/blob/main/README.md) for main details
