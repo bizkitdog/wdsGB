@@ -1,7 +1,3 @@
----
-permalink: about.html
----
-
 \*drinks water pixely-y\*
 
 # water drinking simulator for the nintendo gameboy
