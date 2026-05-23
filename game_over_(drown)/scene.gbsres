@@ -1,0 +1,152 @@
+{
+  "_resourceType": "scene",
+  "id": "6cffb755-95fe-4830-b927-d67522bc1466",
+  "_index": 4,
+  "name": "game over (drown)",
+  "backgroundId": "3a179a62-7e60-44a2-a509-22d8f7b8ad81",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "default-bg-2"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 448,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "f6137288-7642-4fed-bcd5-608a57dfc620"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_UI",
+      "args": {
+        "palette": "default-ui"
+      },
+      "id": "59e3c73e-1a76-4eff-b276-8198e14da6d2"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "497182f7-04ef-4b03-b41e-3ef69a76961d"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:94a641da-6023-4cf3-988a-dec5f567cf10!you overhydrated\n  and drowned!",
+        "x": 2,
+        "y": 6,
+        "location": "background",
+        "__collapse": false
+      },
+      "id": "30da0f73-3d83-4f50-8c73-0e13f8a83ca1"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "2"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "variable",
+                "value": "1"
+              }
+            },
+            "id": "a02a2564-8d4c-4abe-b762-492456c2aaa2"
+          }
+        ],
+        "false": []
+      },
+      "id": "1db094bf-772c-45e7-8170-fbab5b90548c"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:94a641da-6023-4cf3-988a-dec5f567cf10!game over\nscore:$01$\nhighS:$02$",
+        "x": 5,
+        "y": 10,
+        "location": "background",
+        "__collapse": true
+      },
+      "id": "451e2bb5-6e22-4580-aba0-c4d6b0be7f28"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "7fab13bc-3443-43a1-9b91-c26c5bb0cb75"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "a",
+          "start",
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "f5eb2a2b-1cf9-48bd-890e-2ab82395026f",
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "22265048-1a56-4441-80ee-16211f0ec108"
+          }
+        ]
+      },
+      "id": "04cc49f8-db26-41cb-bbf1-0ac3dec36430"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "c70471cb-7cb8-4051-82e4-d989b467fafd"
+}
