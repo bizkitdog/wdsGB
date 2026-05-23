@@ -141,7 +141,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 17
               },
               "direction": "",
               "fadeSpeed": "2",

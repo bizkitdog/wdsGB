@@ -20,6 +20,11 @@
   "y": 32,
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "f6137288-7642-4fed-bcd5-608a57dfc620"
+    },
+    {
       "command": "EVENT_PALETTE_SET_UI",
       "args": {
         "palette": "default-ui"
