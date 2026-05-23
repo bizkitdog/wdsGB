@@ -30,87 +30,11 @@
   "playerSpriteSheetId": "4e0a3409-e67e-4be2-98d0-08315ea5ea3f",
   "script": [
     {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "!F:94a641da-6023-4cf3-988a-dec5f567cf10!setttings:",
-        "x": 5,
-        "y": 0,
-        "location": "background",
-        "__collapse": false
-      },
-      "id": "b378401b-43f6-46d6-b47b-da5da2b90791"
-    },
-    {
       "command": "EVENT_PALETTE_SET_UI",
       "args": {
         "palette": "default-bg-4"
       },
       "id": "e18b5291-d906-46fb-b1f8-2c14b52532f5"
-    },
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "  !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!toggle sfx\n\ntoggle bg music",
-        "x": 2,
-        "y": 3,
-        "location": "background",
-        "__collapse": false
-      },
-      "id": "948fc360-474a-440f-b4fe-11432e518108"
-    },
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427! adjust hydration timer\n\n    adjust score timer ",
-        "x": 1,
-        "y": 7,
-        "location": "background",
-        "__collapse": false
-      },
-      "id": "1379b913-8eea-4df9-bcb0-01354a146903"
-    },
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "!F:3910f4e8-5524-4b9c-af1b-e896cf9acb70!credits!",
-        "x": 6,
-        "y": 11,
-        "location": "background",
-        "__collapse": false
-      },
-      "id": "d7b4cccc-f7a8-474e-9cb2-bb684ff05a68"
-    },
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "!F:3910f4e8-5524-4b9c-af1b-e896cf9acb70!save/restart",
-        "x": 4,
-        "y": 13,
-        "location": "background",
-        "__collapse": false
-      },
-      "id": "5b6ab66c-3348-482e-820d-95443b76d1d3"
-    },
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "!F:3910f4e8-5524-4b9c-af1b-e896cf9acb70!erase save",
-        "x": 5,
-        "y": 14,
-        "location": "background",
-        "__collapse": false
-      },
-      "id": "b76a6141-e16f-4465-8584-736ae6603bd0"
-    },
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "!F:3910f4e8-5524-4b9c-af1b-e896cf9acb70!exit",
-        "x": 8,
-        "y": 16,
-        "location": "background"
-      },
-      "id": "65624b8f-73ac-49bb-bc4a-6e17c1b4e908"
     }
   ],
   "playerHit1Script": [],

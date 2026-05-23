@@ -30,17 +30,6 @@
   "playerSpriteSheetId": "4e0a3409-e67e-4be2-98d0-08315ea5ea3f",
   "script": [
     {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "!F:94a641da-6023-4cf3-988a-dec5f567cf10!setttings:",
-        "x": 5,
-        "y": 0,
-        "location": "background",
-        "__collapse": false
-      },
-      "id": "b378401b-43f6-46d6-b47b-da5da2b90791"
-    },
-    {
       "command": "EVENT_PALETTE_SET_UI",
       "args": {
         "palette": "default-bg-4"
@@ -50,33 +39,11 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "  !F:cf2c5be0-8903-4a16-8841-02e11be317d6!toggle sfx\n\n!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!toggle bg music",
-        "x": 4,
-        "y": 3,
-        "location": "background",
-        "__collapse": false
-      },
-      "id": "948fc360-474a-440f-b4fe-11432e518108"
-    },
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
-        "text": "!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427! adjust hydration timer\n\n    adjust score timer ",
-        "x": 1,
-        "y": 7,
-        "location": "background",
-        "__collapse": false
-      },
-      "id": "1379b913-8eea-4df9-bcb0-01354a146903"
-    },
-    {
-      "command": "EVENT_TEXT_DRAW",
-      "args": {
         "text": "!F:3910f4e8-5524-4b9c-af1b-e896cf9acb70!credits!",
         "x": 6,
         "y": 11,
         "location": "background",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "d7b4cccc-f7a8-474e-9cb2-bb684ff05a68"
     },

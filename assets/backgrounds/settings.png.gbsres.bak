@@ -3,7 +3,7 @@
   "id": "99d10ef7-eb10-4de9-9686-d6eab824d91a",
   "name": "settings",
   "symbol": "bg_settings",
-  "tileColors": "00ba+02!0012+029+00c+028+00c+028+00c+028+00c+028+00c+028+00c+028+00e+023+009+",
+  "tileColors": "00a3+026+0011+02!0012+029+00c+028+00c+028+00c+028+00c+028+00c+028+00c+028+00e+023+009+",
   "filename": "settings.png",
   "width": 20,
   "height": 18,

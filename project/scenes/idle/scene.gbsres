@@ -18,6 +18,36 @@
   "y": 200,
   "script": [
     {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "6"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "ca93cfe4-59de-4b84-8667-7de6ba79813c"
+            },
+            "id": "4182214f-3ea4-400e-8d21-91cb73685d59"
+          }
+        ],
+        "false": []
+      },
+      "id": "f5dc945c-6f4e-4f40-afc0-ce4e16742b01"
+    },
+    {
       "command": "EVENT_PALETTE_SET_UI",
       "args": {
         "palette": "default-bg-1",

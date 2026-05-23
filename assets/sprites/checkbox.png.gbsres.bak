@@ -166,7 +166,7 @@
       ]
     }
   ],
-  "numTiles": 4,
+  "numTiles": 5,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 16,
@@ -179,5 +179,5 @@
   "filename": "checkbox.png",
   "width": 48,
   "height": 16,
-  "checksum": "d27bb7eb43cd931a254e0dee3f3867bb820f07cf"
+  "checksum": "7aa045f75dc5d310646f589696377cfb50f5d383"
 }
