@@ -18,41 +18,6 @@
   "y": 200,
   "script": [
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "start",
-          "select"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "5c3aefa5-2698-42da-97c4-a6d6125a3bc6",
-              "x": {
-                "type": "number",
-                "value": 9
-              },
-              "y": {
-                "type": "number",
-                "value": 17
-              },
-              "direction": "",
-              "fadeSpeed": "2",
-              "__collapse": true
-            },
-            "id": "e08db5e0-2943-4110-b949-b976d5cdee01"
-          }
-        ]
-      },
-      "id": "257aeaee-ed32-4081-bd97-ea18bc1780e5"
-    },
-    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -104,10 +69,11 @@
             "value": "5"
           },
           "valueB": {
-            "type": "true"
+            "type": "false"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [

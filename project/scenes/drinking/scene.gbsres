@@ -18,6 +18,16 @@
   "y": 200,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "49cd56b2-4b42-4273-b1dd-fceb0fb86c7c"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -69,10 +79,11 @@
             "value": "5"
           },
           "valueB": {
-            "type": "true"
+            "type": "false"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [

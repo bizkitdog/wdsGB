@@ -204,6 +204,32 @@
         ]
       },
       "id": "92db17b4-7ed1-4b68-b0fb-484e802ef768"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "7"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "!F:d4a983d3-0712-409c-92d8-34c5b5ee24b4!\"!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427! to drink",
+              "x": 0,
+              "y": 2,
+              "location": "background"
+            },
+            "id": "0b7144d6-1b01-480e-ba6f-606e9fe3af20"
+          }
+        ],
+        "false": []
+      },
+      "id": "dbfc41ca-4077-4350-9449-4a6de07a728b"
     }
   ],
   "playerHit1Script": [],

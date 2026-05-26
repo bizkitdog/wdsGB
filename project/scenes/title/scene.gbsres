@@ -15,8 +15,13 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
   "x": 112,
-  "y": 30,
+  "y": 32,
   "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "040ff69d-4bd7-4f3b-bb02-aae0fb51527d"
+    },
     {
       "command": "EVENT_IF",
       "args": {
@@ -64,6 +69,16 @@
         ]
       },
       "id": "d9644e5e-4692-461e-9771-2f24caca5f19"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "2bfec643-af30-4469-946e-4d7be21e4c46"
     },
     {
       "command": "EVENT_ACTOR_HIDE",

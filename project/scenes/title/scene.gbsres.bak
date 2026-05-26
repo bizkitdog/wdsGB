@@ -18,6 +18,11 @@
   "y": 32,
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "040ff69d-4bd7-4f3b-bb02-aae0fb51527d"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
