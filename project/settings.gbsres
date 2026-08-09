@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "f5eb2a2b-1cf9-48bd-890e-2ab82395026f",
-  "startX": 0,
-  "startY": 0,
+  "startSceneId": "382d13da-65c6-474f-b260-4ec8ea1419c1",
+  "startX": 17,
+  "startY": 1,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
   "startDirection": "down",
@@ -117,5 +117,6 @@
     "SHMUP",
     "TOPDOWN"
   ],
-  "autoTileFlipEnabled": true
+  "autoTileFlipEnabled": true,
+  "webTemplate": ""
 }

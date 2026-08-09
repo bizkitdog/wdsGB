@@ -37,6 +37,11 @@
       "symbol": "var_musicoff"
     },
     {
+      "id": "7",
+      "name": "show press",
+      "symbol": "var_show_press"
+    },
+    {
       "id": "04360ad5-2f62-4b4e-a796-74924170c0f1__L0",
       "name": "localscore",
       "symbol": "var_localscore"
@@ -70,6 +75,11 @@
       "id": "0a55024a-248d-43d9-a412-b25fe7f9013d__L0",
       "name": "hydrationtick",
       "symbol": "var_hydrationtick_0"
+    },
+    {
+      "id": "8",
+      "name": "scorespeed",
+      "symbol": "var_scorespeed_0"
     }
   ],
   "constants": []

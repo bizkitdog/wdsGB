@@ -1,108 +1,57 @@
 {
   "_resourceType": "trigger",
-  "id": "56e97815-c82b-47f5-93b4-77cbd67f6a94",
+  "id": "2885d6cd-913a-4719-9423-17d10bf6100d",
   "name": "",
   "prefabId": "",
-  "x": 6,
-  "y": 3,
+  "x": 4,
+  "y": 6,
   "symbol": "trigger_4",
   "prefabScriptOverrides": {},
-  "width": 7,
+  "width": 12,
   "height": 1,
   "script": [
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_TEXT",
       "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "5"
-          },
-          "valueB": {
-            "type": "true"
-          }
-        },
-        "__collapseElse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "5",
-              "value": {
-                "type": "false"
-              }
-            },
-            "id": "039dec95-7554-4864-8226-00c983120c0c"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "disabled!"
-              ],
-              "__section": "layout",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 8,
-              "textX": 5,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": false,
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": false
-            },
-            "id": "47632221-c34f-47c1-9e1b-61d800398cb3"
-          }
+        "text": [
+          "Select a\nwater speed."
         ],
-        "false": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "5",
-              "value": {
-                "type": "true"
-              }
-            },
-            "id": "9ff32791-af80-467b-9439-00069f322cdb"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "enabled!"
-              ],
-              "__section": "layout",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 6,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "43e5a4de-daf5-4b06-8799-a252f26a7e88"
-          }
-        ]
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "eb6b0b17-66b5-41b2-a22e-291cf9981e20"
+      "id": "66360478-a5d4-4ba0-ae7b-d241f9171755"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "8",
+        "items": 3,
+        "option1": "Slow",
+        "option2": "Med. (Default)",
+        "option3": "Quick",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": false,
+        "layout": "dialogue"
+      },
+      "id": "0837e86f-3266-4570-ba44-abd8c174e93a"
     }
   ],
   "leaveScript": [],

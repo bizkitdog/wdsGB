@@ -71,6 +71,16 @@
       "id": "d9644e5e-4692-461e-9771-2f24caca5f19"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "2bfec643-af30-4469-946e-4d7be21e4c46"
+    },
+    {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$"

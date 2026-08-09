@@ -29,7 +29,8 @@
           "type": "variable",
           "value": "4"
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -76,14 +77,16 @@
         "variable": "7",
         "value": {
           "type": "true"
-        }
+        },
+        "__collapse": true
       },
       "id": "2bfec643-af30-4469-946e-4d7be21e4c46"
     },
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "45c6cc7e-3c32-4686-84e9-124c0bcb5757"
     },
@@ -107,7 +110,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "f31ec96e-a6d3-44b3-9155-750e864af6dc"
     },
@@ -118,7 +121,7 @@
         "x": 1,
         "y": 9,
         "location": "background",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "e45cecbc-6c6e-45a8-b099-590ee418f46a"
     },
@@ -129,7 +132,7 @@
         "x": 2,
         "y": 16,
         "location": "background",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "c466b644-b749-4097-8d2d-c5949802fea4"
     },

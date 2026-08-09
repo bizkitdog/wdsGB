@@ -77,6 +77,11 @@
               }
             },
             "id": "6f07468a-7086-4877-bf0b-7b35b2d85c17"
+          },
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "a5e79f47-baac-4356-9b02-7fe427422309"
           }
         ]
       },
@@ -135,7 +140,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 8,
+  "x": 12,
   "y": 4,
   "_index": 1
 }
