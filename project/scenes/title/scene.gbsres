@@ -3,13 +3,22 @@
   "id": "f5eb2a2b-1cf9-48bd-890e-2ab82395026f",
   "_index": 2,
   "name": "title",
-  "backgroundId": "79c3e83b-1edb-411a-be5c-f778bad3c4e8",
+  "backgroundId": "265cbea8-9e1a-4f37-b1cf-021291c81ebe",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "POINTNCLICK",
   "colorModeOverride": "none",
-  "paletteIds": [],
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "default-sprite"
+  ],
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
@@ -117,11 +126,11 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!water drinking simulator\n  for nintendo gameboy",
+        "text": "!F:28a64d6f-e665-4c0c-8430-39928fafa2ea!water drinking simulator\n  for nintendo gameboy",
         "x": 1,
         "y": 9,
         "location": "background",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "e45cecbc-6c6e-45a8-b099-590ee418f46a"
     },

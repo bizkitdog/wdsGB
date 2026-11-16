@@ -3,13 +3,22 @@
   "id": "f5eb2a2b-1cf9-48bd-890e-2ab82395026f",
   "_index": 2,
   "name": "title",
-  "backgroundId": "79c3e83b-1edb-411a-be5c-f778bad3c4e8",
+  "backgroundId": "265cbea8-9e1a-4f37-b1cf-021291c81ebe",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "POINTNCLICK",
   "colorModeOverride": "none",
-  "paletteIds": [],
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "default-sprite"
+  ],
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
@@ -29,7 +38,8 @@
           "type": "variable",
           "value": "4"
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -76,14 +86,16 @@
         "variable": "7",
         "value": {
           "type": "true"
-        }
+        },
+        "__collapse": true
       },
       "id": "2bfec643-af30-4469-946e-4d7be21e4c46"
     },
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "45c6cc7e-3c32-4686-84e9-124c0bcb5757"
     },
@@ -107,7 +119,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "f31ec96e-a6d3-44b3-9155-750e864af6dc"
     },
@@ -129,7 +141,7 @@
         "x": 2,
         "y": 16,
         "location": "background",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "c466b644-b749-4097-8d2d-c5949802fea4"
     },
