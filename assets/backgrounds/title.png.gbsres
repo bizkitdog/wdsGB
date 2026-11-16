@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "265cbea8-9e1a-4f37-b1cf-021291c81ebe",
+  "name": "title",
+  "symbol": "bg_titlescreensplash",
+  "tileColors": "",
+  "filename": "title.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
