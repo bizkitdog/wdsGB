@@ -31,14 +31,14 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "ca93cfe4-59de-4b84-8667-7de6ba79813c",
+              "musicId": "8bece4b6-cc1f-4675-a2f2-6f1eacae6c9f",
               "__collapse": false
             },
             "id": "4182214f-3ea4-400e-8d21-91cb73685d59"
