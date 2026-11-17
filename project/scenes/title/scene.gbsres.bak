@@ -126,7 +126,7 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!water drinking simulator\n  for nintendo gameboy",
+        "text": "!F:28a64d6f-e665-4c0c-8430-39928fafa2ea!water drinking simulator\n  for nintendo gameboy",
         "x": 1,
         "y": 9,
         "location": "background",

@@ -22,20 +22,55 @@
   "script": [
     {
       "command": "EVENT_MUSIC_STOP",
-      "args": {},
+      "args": {
+        "__collapse": true
+      },
       "id": "f3d4ac62-05a0-4e9b-8eea-3d417329469f"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "6"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "cc6a4fe2-369f-4cfb-b4cf-2f5d88f99e08",
+              "__collapse": false
+            },
+            "id": "e804516f-e855-42d0-a3c1-02c08f4187f7"
+          }
+        ],
+        "false": []
+      },
+      "id": "c650ecea-4250-4fcf-8954-92ec620d862a"
     },
     {
       "command": "EVENT_PALETTE_SET_UI",
       "args": {
-        "palette": "default-ui"
+        "palette": "default-ui",
+        "__collapse": true
       },
       "id": "ea59e289-9730-4f40-abf1-17309f1af7a9"
     },
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "8f479f04-7341-4273-adb9-46df33f84157"
     },
@@ -92,7 +127,7 @@
         "x": 5,
         "y": 10,
         "location": "background",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "030e5759-5993-40e3-82c6-4434e84b4c9f"
     },
@@ -107,19 +142,6 @@
         "__collapse": true
       },
       "id": "b5290abe-aa59-4e16-8362-4a8f907b778b"
-    },
-    {
-      "command": "EVENT_SAVE_DATA",
-      "args": {
-        "saveSlot": 0,
-        "__scriptTabs": "save",
-        "__collapse": true
-      },
-      "children": {
-        "true": [],
-        "load": []
-      },
-      "id": "960ddc51-3d46-41d3-9034-5f58c7612af8"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",

@@ -158,9 +158,22 @@
           "up",
           "left"
         ],
-        "__collapse": true
+        "__collapse": false
       },
       "id": "89693768-1cf1-4b46-b50a-c720b2f685ed"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 238,
+        "duration": 0.1,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "d5760008-f0ab-4432-a8ab-b148ffcb7b51"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
