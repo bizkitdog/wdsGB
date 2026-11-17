@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "05262363-0213-44b1-ae9a-ef4eaaf51922",
+  "name": "drown.wav",
+  "symbol": "sound_drown_wav",
+  "type": "wav",
+  "filename": "drown.wav"
+}
